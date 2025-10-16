@@ -1,0 +1,49 @@
+[api]
+enabled = true
+host = "0.0.0.0"
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["extensions"]
+max_rows = 1000
+
+[db]
+host = "0.0.0.0"
+port = 54322
+shadow_host = "0.0.0.0"
+shadow_port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+host = "0.0.0.0"
+port = 54323
+
+[storage]
+enabled = true
+host = "0.0.0.0"
+port = 54324
+file_size_limit = 52428800
+
+[auth]
+enabled = true
+host = "0.0.0.0"
+port = 54325
+site_url = "http://app.example.com"
+additional_redirect_urls = []
+jwt_expiry = 3600
+enable_signup = true
+enable_anonymous_access = false
+email = {}
+sms = {}
+external = {}
+
+[realtime]
+enabled = true
+host = "0.0.0.0"
+port = 54327
+
+[functions]
+enabled = true
+host = "0.0.0.0"
+port = 54326
+verify_jwt = true

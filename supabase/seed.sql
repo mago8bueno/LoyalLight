@@ -1,0 +1,1 @@
+-- Seeds de ejemplo vacíos; se agregarán datos de prueba en iteraciones futuras.

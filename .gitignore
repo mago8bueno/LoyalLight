@@ -1,0 +1,25 @@
+# Dependencias
+node_modules
+.pnpm-store
+
+# Entornos
+.env
+.env.local
+.env.production
+
+# Builds
+.next
+out
+dist
+
+# Supabase local
+.supabase
+
+# Testing
+coverage
+playwright-report
+playwright/.cache
+
+# Misc
+.DS_Store
+Thumbs.db

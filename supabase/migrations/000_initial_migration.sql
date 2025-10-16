@@ -1,0 +1,1 @@
+-- Migración inicial vacía; se poblará con tablas como merchants, customers, etc. en iteraciones futuras.
